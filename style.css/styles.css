@@ -1,3 +1,7 @@
+body {
+    font-family: inter;
+}
+
 [class*="__container"] {
     max-width: 1328px;
     margin: 0 auto;
@@ -9,13 +13,14 @@
 }
 
 .header__container {
+    height: 120px;
+
     display: flex;
     justify-content: space-between;
-    
+    text-align: center;    
 }
 
 .nav-menu {
-    height: ;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -23,17 +28,46 @@
 }
 
 .nav {
+    font-weight: 400;
     font-size: 15px;
     line-height: 24px;
     color: #D27487;
-
 }
 
 .logo {
     max-width: 276px;
     max-height: 32px;
+    margin: 45px 0;
 }
 .icons {
     display: flex;
     align-items: center;
+    gap: 16px;
+}
+
+.main {
+    height: 680px;
+    background-color: #4A2B33;
+    margin-bottom: 220px;
+}
+
+.main__container {
+    display: flex;
+}
+
+h2 {
+    text-align: center;
+}
+
+.block {
+    margin: 0 auto;
+    height: 224px;
+    width: 869px;
+}
+.block p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 45px;
+    text-align: center;
 }
