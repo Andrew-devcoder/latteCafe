@@ -1,13 +1,39 @@
-.__container {
+[class*="__container"] {
     max-width: 1328px;
+    margin: 0 auto;
 }
+
 .header {
+    height: 120px;
+    background: #4A2B33;
 }
-.nav__block {
+
+.header__container {
+    display: flex;
+    justify-content: space-between;
+    
 }
+
+.nav-menu {
+    height: ;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+
 .nav {
+    font-size: 15px;
+    line-height: 24px;
+    color: #D27487;
+
 }
+
 .logo {
+    max-width: 276px;
+    max-height: 32px;
 }
 .icons {
+    display: flex;
+    align-items: center;
 }
