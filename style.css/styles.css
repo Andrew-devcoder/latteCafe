@@ -143,3 +143,98 @@ h2 {
 .offday {
     margin: 35px 0 135px;
 }
+
+.gallery {
+    margin: 152px 0 120px;
+}
+
+.gallery__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.wine-food {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.award {
+    padding: 139px 0 133px;
+    color: #D27487;
+    background: #4A2B33;
+
+}
+
+.award h3 {
+    font-family: 'Azeret Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 47px;
+    line-height: 62px;
+
+    letter-spacing: 1px;
+
+}
+
+.award__container {
+    display: flex;
+    flex-direction: row;
+    gap: 267px;
+
+}
+.award-text {
+    max-width: 644px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+}
+
+footer {
+    padding: 56px 0 39px;
+
+    text-align: center;
+
+    background: #FFFFFF;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+
+    color: #1F1F1F;
+}
+.info-top {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+
+}
+.info-booton {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+}
+.brand {
+    margin-top: 19px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+
+    color: #696969;
+}
