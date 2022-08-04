@@ -79,14 +79,11 @@ h2 {
 
 .price-menu {
     background-color: #E9E9E3;
-
 }
 
 .menu-price__container {
     display: flex;
     flex-direction: row;
-
-
 }
 
 .type-menu h3 {
@@ -107,6 +104,38 @@ h2 {
     font-size: 32px;
     line-height: 45px;
     color: #6F6F64;
+}
+.type-menu div {
+    margin-top: 74px;
+}
+
+button {
+    height: 58px;
+    width: 531px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    user-select: none;
+    
+
+    color: #6F6F64;
+    background: #E9E9E3;
+    border: 2px solid #1F1F1F;
+    transition: background 9999999s, color 9999999s;
+}
+
+button:not(:last-child) {
+    margin-bottom: 12px;
+}
+
+button:active {
+    color: #FFFFFF;
+    background: #6F6F64;
+    border: 2px solid #6F6F64;
+    transition: background 0s;
+    transition: color 0s;
 }
 
 .img-menu {
