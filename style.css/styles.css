@@ -238,13 +238,8 @@ footer {
     font-weight: 400;
     font-size: 15px;
     line-height: 22px;
-    word-spacing: 32px;
 
     color: #1F1F1F;
-}
-
-.ws-none {
-    word-spacing: normal;
 }
 
 .brand {
