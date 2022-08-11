@@ -221,7 +221,8 @@ button:active {
 }
 
 footer {
-    padding: 56px 0 39px;
+    margin: 0 auto;
+    max-width: 578px;
 
     text-align: center;
 
@@ -229,30 +230,19 @@ footer {
 }
 
 .info {
-    display: flex;
-    flex-direction: column;
-    gap: 7px;
-
     font-style: normal;
     font-weight: 400;
     font-size: 15px;
     line-height: 22px;
+    word-spacing: 32px;
 
     color: #1F1F1F;
 }
-.info-top {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    gap: 30px;
 
+.ws-none {
+    word-spacing: normal;
 }
-.info-booton {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    gap: 30px;
-}
+
 .brand {
     margin-top: 19px;
     display: flex;
