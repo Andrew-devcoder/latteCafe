@@ -230,6 +230,10 @@ footer {
 }
 
 .info {
+    margin: 56px 0 0 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 7px 32px;
     font-style: normal;
     font-weight: 400;
     font-size: 15px;
@@ -244,7 +248,7 @@ footer {
 }
 
 .brand {
-    margin-top: 19px;
+    margin: 19px 0 39px;
     display: flex;
     flex-direction: row;
     justify-content: center;
