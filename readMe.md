@@ -6,4 +6,4 @@ Link netlify
 
 https://project-latte-cafe.netlify.app
 
-> ![latteCafe-readMe](https://user-images.githubusercontent.com/104767959/184228485-27939439-0d40-4c36-9ed4-ff2c7464c7bb.jpg)
+![latteCafeFullPage](https://user-images.githubusercontent.com/104767959/184232061-1b283d92-21b0-4fb9-aec7-156e065ebb77.png)
